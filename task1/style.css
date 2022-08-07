@@ -1,0 +1,208 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+	font-family:"Poppins",sans-serif;
+}
+.hero-section{
+	width:100%;
+	height:100vh;
+	background:url("bg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+}
+nav{
+	width:100%;
+	height:10vh;
+	background-color:#c58bf7;
+	display:flex;
+	padding:10px;
+	color:white;
+	justify-content:space-between;
+	align-items:center;
+	
+	
+}
+nav h1{
+	font-size:35px;
+	color:crimson;
+}
+nav span{
+	color:black;
+}
+ nav ul{
+	 float:right;
+	display:flex;
+	list-style:none;
+	
+	
+}
+ nav ul li{
+	 margin:2px;
+	 display:inline-block;
+	 margin-left:2em;
+	 padding:7px;
+	 text-align: center;
+     border-radius:12px;	 
+ }
+  nav ul li:hover{
+	 	 
+		 padding:5px;
+		 text-transform: 0;
+		 border:2px solid #cfa0f8;
+		 box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ nav ul li a{
+	color:black;
+	font-size:20px;
+}
+a{
+	cursor:pointer;
+}
+.hero-section .main{
+	height:90vh;
+	border: 5px solid while;
+	position:absolute;	
+	display:flex;
+	justify-content:space-between;
+}
+.hero-section .main .left{
+	padding-top:110px;
+	text-align: center;
+	
+}
+.hero-section .main .left h1{
+	font-size:50px;
+	font-weight:10px;
+	color:white;
+	text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+}
+.hero-section .main .left p{
+	padding-top:10px;
+	margin:10px;
+	font-size:20px;
+	color:white;
+	ext-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+}
+.hero-section .main .left button{
+	width:100px;
+	padding:10px;
+	font-size:20px;
+	color:white;
+	background:#c58bf7;
+	margin:2px;
+	border:none;
+	border-radius:12px;
+	border:2px solid #cfa0f8; 
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.hero-section .main .left button:hover{
+	 
+	 text-transform: 0;
+	 background:transparent;
+	 border:2px solid #9f41f1;
+}
+.hero-section .main .right{
+	padding:30px;
+	background:white;
+	margin:50px;
+	width:500px;
+	border-radius:12px;
+	border:2px solid #cfa0f8; 
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	text-align:center;
+}
+.hero-section .main .right .b{
+	display:list-item;
+	width:350px;
+	padding:10px;
+	font-size:20px;
+	color:black;
+	margin:20px;
+	border:none;
+	border-radius:12px;
+	border:2px solid #cfa0f8; 
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	
+}
+.hero-section .main .right .b:hover{
+	background:rgba(0,0,0,0.19);
+}
+.hero-section .main .right h4{
+	color:#8712ed;
+	margin:5px;
+	padding:5px;
+}
+.second-section{
+	width:100%;
+	
+	background:white;
+}
+.second-section .second-main .about{
+	text-align:center;
+	padding:20px;
+	margin:20px;
+}
+.second-section .second-main .about h1{
+	padding-bottom:10px;
+	font-size:35px;
+}
+.second-section .second-main .about p{
+	font-size:20px;
+	color:gray;
+}
+.second-section .second-main .plan-div{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.second-section .second-main .plan-div .plan{
+	padding:30px;
+	background:white;
+	margin:50px;
+	width:500px;
+	height:370px;
+	border-radius:12px;
+	border:2px solid #cfa0f8; 
+	box-shadow:0 8px 16px 0 rgba(159, 65, 241,0.2),0 6px 20px 0 rgba(159, 65, 241,0.19);
+	
+}
+.second-section .second-main .plan-div .plan button{
+	width:200px;
+	padding:10px;
+	font-size:20px;
+	color:black;
+	margin-left:40px;
+	margin-top:15px;
+	border:none;
+	border-radius:12px;
+	border:2px solid #cfa0f8; 
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.second-section .second-main .plan-div .plan button:hover{
+	background:rgba(108, 14, 190,0.40);
+}
+.second-section .second-main .plan-div .plan  ul{
+	text-align1: left;
+}
+.thrid-section{
+	width:100%;
+	background:white;
+}
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
